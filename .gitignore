@@ -1,0 +1,78 @@
+// ...existing code...
+# Zig
+zig-cache/
+zig-out/
+zig-out/bin/
+zig-out/lib/
+
+# C / C++
+# Object files and libraries
+*.o
+*.obj
+*.lo
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.ilk
+*.pdb
+*.exp
+
+# Binaries and apps
+*.exe
+*.out
+*.app
+
+# Build directories and system files
+/build/
+/bin/
+/out/
+/target/
+dist/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+Makefile
+build.ninja
+compile_commands.json
+
+# IDE / editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.userprefs
+*.sln
+*.vcxproj*
+*.ncb
+*.sdf
+*.opensdf
+*.ipch
+
+# Temporary / swap / OS
+*~
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+npm-debug.log
+*.log
+
+# Coverage / profiling
+coverage/
+*.gcda
+*.gcno
+*.gcov
+*.lcov
+
+# Test artifacts
+test-results/
+tests/*.o
+
+# Misc
+*.gch
+*.pch
+*.inc
